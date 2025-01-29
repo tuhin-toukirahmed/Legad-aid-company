@@ -14,7 +14,7 @@
 
 <body>
     <!-- Header section -->
-    <header class="container">
+    <header class="">
         <!-- Navbar  -->
         <nav class="navbar w-11/12 mx-auto">
             <div class="navbar bg-base-100 shadow-sm gap-5 ">
@@ -158,17 +158,31 @@
             </div>
         </nav>
         <!-- hero -->
-        <section class="container">
-            <div class="hero py-10 w-11/12 mx-auto"
-                style="background-image:url(./images/banner.png);">
-                <div class="hero-overlay"></div>
-                <div class="hero-content text-neutral-content text-center">
-                    <div class="max-w-md">
-                        <h1 class="mb-5 text-5xl font-bold">We Provide Effective <br> Legal Solutions</h1>
-                        <p class="mb-5">
-                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
+        <section class="">
+            <div class="hero  w-11/12 mx-auto" style="background-image:url(./images/banner.png);">
+                <div class="hero-overlay "></div>
+                <div class="hero-content text-neutral-content text-center  py-20">
+                    <div class="max-w-lg flex flex-col items-center ">
+                        <h1 class="mb-5 text-2xl lg:text-5xl font-bold space-y-1.5 ">We Provide Effective <br> Legal
+                            Solutions</h1>
+                        <p class="mb-5 text-sm md:text-base">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered alteration in some form, by injected humour.
                         </p>
-                        <button class="btn btn-primary">Get Started</button>
+                        <div class="flex gap-2 ">
+                            <label class="input validator">
+                                <svg class="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <g stroke-linejoin="round" stroke-linecap="round" stroke-width="2.5" fill="none"
+                                        stroke="currentColor">
+                                        <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                                        <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                                    </g>
+                                </svg>
+                                <input type="email" placeholder="mail@site.com" required />
+                            </label>
+                            <div class="validator-hint hidden">Enter valid email address</div>
+                            <button class="btn btn-primary">Submit</button>
+                        </div>
                     </div>
                 </div>
             </div>
