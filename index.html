@@ -8,6 +8,10 @@
     <!-- daisyui link -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.3/daisyui.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- fontawesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Legal AD</title>
 
 </head>
@@ -17,7 +21,7 @@
     <header class="">
         <!-- Navbar  -->
         <nav class="navbar w-11/12 mx-auto">
-            <div class="navbar bg-base-100 shadow-sm gap-5 ">
+            <div class="navbar bg-base-100  gap-5 ">
                 <div class="navbar-start  w-56  ">
                     <div class="dropdown">
                         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -195,9 +199,113 @@
     <!-- main section -->
     <main>
         <!-- legal services -->
-        <section>
-            <h1>The Legal Practice Area</h1>
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+        <section class="w-11/12 mx-auto flex flex-col items-center gap-3 py-10">
+            <div class="text-center">
+                <h1 class="font-bold text-2xl lg:text-4xl ">The Legal Practice Area</h1>
+                <p class="text-sm lg:text-base">There are many variations of passages of Lorem Ipsum available, but the
+                    majority have suffered alteration
+                    in some form, by injected humour.</p>
+            </div>
+            <!-- Practice Item Area -->
+            <div class="ites-area grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
+                <div
+                    class="card bg-base-100 w-72 rounded-none md:border-r-2 border-b-2 hover:bg-gradient-to-b from-[#f3f3f3] to-[#fff] border-[#E7E7E7] transition">
+                    <figure class="px-10 pt-10">
+                        <img src="./images/business.png" alt="" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Business Law</h2>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered
+                            alteration in some form, by injected humour.
+                        </p>
+                        <div class="card-actions w-7 h-7 bg-amber-600 rounded-full flex justify-center items-center">
+                            <i class="fa-solid fa-arrow-right text-base font-bold "></i>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="card bg-base-100 w-72 rounded-none hover:bg-gradient-to-b from-[#f3f3f3] to-[#fff] lg:border-r-2 border-b-2 border-[#E7E7E7]">
+                    <figure class="px-10 pt-10">
+                        <img src="./images/child.png" alt="" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Child Support</h2>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered
+                            alteration in some form, by injected humour.
+                        </p>
+                        <div class="card-actions w-7 h-7 bg-amber-600 rounded-full flex justify-center items-center">
+                            <i class="fa-solid fa-arrow-right text-base font-bold "></i>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="card bg-base-100 w-72 rounded-none hover:bg-gradient-to-b from-[#f3f3f3] to-[#fff] border-b-2 md:border-r-2 border-[#E7E7E7] lg:border-r-0">
+                    <figure class="px-10 pt-10">
+                        <img src="./images/criminal.png" alt="" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Criminal Law</h2>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered
+                            alteration in some form, by injected humour.
+                        </p>
+                        <div class="card-actions w-7 h-7 bg-amber-600 rounded-full flex justify-center items-center">
+                            <i class="fa-solid fa-arrow-right text-base font-bold "></i>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="card bg-base-100 w-72 hover:bg-gradient-to-b from-[#f3f3f3] to-[#fff] rounded-none border-b-2 border-[#E7E7E7] lg:border-b-0 lg:border-r-2 ">
+                    <figure class="px-10 pt-10">
+                        <img src="./images/education.png" alt="" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Eduvation Law</h2>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered
+                            alteration in some form, by injected humour.
+                        </p>
+                        <div class="card-actions w-7 h-7 bg-amber-600 rounded-full flex justify-center items-center">
+                            <i class="fa-solid fa-arrow-right text-base font-bold "></i>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="card bg-base-100 w-72 hover:bg-gradient-to-b from-[#f3f3f3] to-[#fff] rounded-none border-[#E7E7E7] border-b-2 md:border-b-0 md:border-r-2">
+                    <figure class="px-10 pt-10">
+                        <img src="./images/divorce.png" alt="" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Divorce Law</h2>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered
+                            alteration in some form, by injected humour.
+                        </p>
+                        <div class="card-actions w-7 h-7 bg-amber-600 rounded-full flex justify-center items-center">
+                            <i class="fa-solid fa-arrow-right text-base font-bold "></i>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="card bg-base-100 w-72 hover:bg-gradient-to-b from-[#f3f3f3] to-[#fff] border-[#E7E7E7] rounded-none border-b-2 md:border-b-0  ">
+                    <figure class="px-10 pt-10">
+                        <img src="./images/tax.png" alt="" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Tax Law</h2>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered
+                            alteration in some form, by injected humour.
+                        </p>
+                        <div class="card-actions w-7 h-7 bg-amber-600 rounded-full flex justify-center items-center">
+                            <i class="fa-solid fa-arrow-right text-base font-bold "></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </section>
     </main>
 
